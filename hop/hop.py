@@ -22,7 +22,7 @@ import sys
 try:
 	import json
 except ImportError:
-	import simple_json as json
+	import simplejson as json
 
 
 def basename(path):
